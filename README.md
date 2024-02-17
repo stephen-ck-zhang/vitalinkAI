@@ -25,16 +25,16 @@ This notebook contains the code for the RAG model, and it is another example of 
 This RAG model is built on top of the Nomic Emeddings and GPT4ALL Generative Model developed by [NomicAI](https://www.nomic.ai/), credit to the Nomic team for the open-source code.
 
 
-**LLaMA_GenModel.py**
-This python file contains the code for the LLaMA Generative Model, which is specifically trained on medical data. The model is capable of providing accurate and reliable medical advice and support to users, based on their relevant medical information. The model is built on top of LLaMA-2 7b, and it is implemented using the Hugging Face's Transformers library. Also, the model is modified by a techique proposed in the paper of "Editing Models with Task Arithmetic" by [Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi](https://arxiv.org/abs/2212.04089), which is used to improve the model's performance by combining three LLaMA-2 7b models trained on different medical data. The specific implementation of this modification can be found in the `task_arithmetic.py` file.
+**[vitalinkAI.py](vitalinkAI.py)**
+This is the main interface for the chatbot. This python file contains the code for the LLaMA Generative Model, which is specifically trained on medical data. The model is capable of providing accurate and reliable medical advice and support to users, based on their relevant medical information. The model is built on top of LLaMA-2 7b, and it is implemented using the Hugging Face's Transformers library. Also, the model is modified by a techique proposed in the paper of "Editing Models with Task Arithmetic" by [Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi](https://arxiv.org/abs/2212.04089), which is used to improve the model's performance by combining three LLaMA-2 7b models trained on different medical data. The specific implementation of this modification can be found in the `task_vector.py` file.
 
-**task_arithmetic.py**
-This python file contains the code for the technique proposed in the paper of "Editing Models with Task Arithmetic". The technique is used to improve the performance of the LLaMA Generative Model by combining three LLaMA-2 7b models trained on different medical data. The technique is implemented by adding the parameters of these three models together, and  then effectively averaging the parameters to obtain a new model. The new model is capable of providing more accurate and reliable medical advice and support to users, based on their relevant medical information.
-
-**main.py**
-This is the main interface for the chatbot. It is designed to receive user input, retrieve relevant information from the database, and generate a personalized and informative query for the LLaMA Generative Model. User can interact with the chatbot by calling this main interface.
-
+**[task_vector.py](task_vector.py)**
+This python file contains the code for the technique proposed in the paper of "Editing Models with Task Arithmetic". The technique is used to improve the performance of the LLaMA Generative Model by combining three LLaMA-2 7b models trained on different medical data. The technique is implemented by adding the difference of parameters of these three models together. The new model is capable of providing more accurate and reliable medical advice and support to users, based on their relevant medical information.
 
 ##
 People who contribute to this project: Binbin Chen (chenbb@seas.upenn.edu), Guangyao Dou (gydou@seas.upenn.edu), 
 Yiming Wang (yimiwang@seas.upenn.edu), Chenkang Zhang (stezhang@seas.upenn.edu).
+
+## Acknowledgement
+We thank Nomic AI team for open-sourcing their code and providing the Nomic Embeddings and GPT4ALL Generative Model. We also thank
+Penn's NLP High Performance Computing Group for providing the computing resources for training the LLaMA Generative Model. We also thank the Penn Generative AI Hackathon for providing the resources to develop this project.
