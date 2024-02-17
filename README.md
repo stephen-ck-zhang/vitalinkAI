@@ -36,5 +36,5 @@ This is the main interface for the chatbot. It is designed to receive user input
 
 
 ##
-People who contribute to this system: Binbin Chen (chenbb@seas.upenn.edu), Guangyao Dou (gydou@seas.upenn.edu), 
+People who contribute to this project: Binbin Chen (chenbb@seas.upenn.edu), Guangyao Dou (gydou@seas.upenn.edu), 
 Yiming Wang (yimiwang@seas.upenn.edu), Chenkang Zhang (stezhang@seas.upenn.edu).
