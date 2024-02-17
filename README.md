@@ -35,7 +35,8 @@ This python file contains the code for the technique proposed in the paper of "E
 People who contribute to this project: Binbin Chen (chenbb@seas.upenn.edu), Guangyao Dou (gydou@seas.upenn.edu), 
 Yiming Wang (yimiwang@seas.upenn.edu), Chenkang Zhang (stezhang@seas.upenn.edu).
 
-<img width="468" alt="image" src="https://github.com/stephen-ck-zhang/vitalinkAI/assets/74703421/756a79c3-5115-48ce-bc2f-b0e8bdf9c655">
+<img width="361" alt="image" src="https://github.com/stephen-ck-zhang/vitalinkAI/assets/74703421/3be17108-606d-43cd-816d-a1e476a9ec97">
+
 
 ## Acknowledgement
 We thank Nomic AI team for open-sourcing their code and providing the Nomic Embeddings and GPT4ALL Generative Model. We also thank
