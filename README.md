@@ -21,7 +21,7 @@ This notebook contains the code for the RAG model, and it is another example of 
 - User input: "I have a mole on my skin that is growing and changing color."
 - Retrieved information: "Based on your medical history, she has been diagnosed with osteopenia and basal cell carcinoma (skin cancer), both of which are being managed with supplementation and regular monitoring. Her cholesterol levels have improved since the previous year, but she still needs to continue taking calcium and vitamin D supplements for her bone density." 
 
---- 
+##
 This RAG model is built on top of the Nomic Emeddings and GPT4ALL Generative Model developed by [NomicAI](https://www.nomic.ai/), credit to the Nomic team for the open-source code.
 
 
