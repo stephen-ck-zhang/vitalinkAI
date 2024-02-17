@@ -6,6 +6,8 @@ _This is the project completed for Penn Generative AI Hackathon on Feburary 16-1
 
 **The Presentation can be accessed at:** ([click here](https://docs.google.com/presentation/d/1zf9PiqeRCmtytbm9EB5vno2uXVY50Ur0i96k11m8-0M/edit?usp=sharing))
 
+**The Demo Video can be accessed at:** ([click here](https://drive.google.com/file/d/1VwtDQAPD70XTq7ZFK97xWoNNKNaktRrE/view?usp=sharing))
+
 ## 
 
 The primary goal of this project is to develop a personalized medical chatbot that can provide users with personalized medical advice and support. The chatbot is designed to be user-friendly and accessible to everyone. It is capable of providing personalized medical advice and support to users based on their medical history, symptoms, and other relevant information. The chatbot is developed under the notion of "Agents", in which it is built on top of two main components: Retrieval-Augmented Generation (RAG) based on a vector stored in a database and a LLaMA Generative Model specifically trained on medical data. When user input is received, the chatbot will first retrieve relevant information from the the database containing user's medical history and symptoms, and then generate a personalized and informative query for the LLaMA Generative Model. Since LLaMA Generative Model is trained on medical data, it is capable of providing accurate and reliable medical advice and support to users, based on their relevant medical information.  The chatbot is designed to provide instaneous and accurate medical advice and support to users, and it is also at a low cost. The general pipeline of our models is shown below:
